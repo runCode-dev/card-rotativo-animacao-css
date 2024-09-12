@@ -90,6 +90,14 @@ body{
     transform: rotateY(180deg);
 }
 
+.badge:hover .card__side--front{
+    transform: rotateY(-180deg);
+}
+
+.badge:hover .card__side--back{
+    transform: rotateY(0deg);
+}
+
 .shadow-tape{
     width: 40%;
     height: 20px;
